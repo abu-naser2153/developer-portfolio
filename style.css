@@ -1,19 +1,20 @@
-body {
+.margin {
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
 
 h1 {
     font-size: 50px;
+    margin-left: 5px;
 }
 
 .color {
     color: orange
 }
 
-section {
+.flexible-cotainer {
     display: flex;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-bottom: 100px;
 }
 
@@ -45,4 +46,31 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-item {
+    width: 200%;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#full-stack {
+    border-left: 7px solid tomato;
+}
+
+#baby-dev {
+    border-left: 7px solid blue;
+}
+
+footer p {
+    text-align: center;
 }
